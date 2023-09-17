@@ -7,6 +7,6 @@ test_that("lib_summary returns expected result", {
   expect_type(res$n_packages, "integer")
 })
 
-test_that("lib_summary fails WAA WAA") {
+test_that("lib_summary fails WAA WAA", {
   expect_error(lib_summary("foo"), "unused argument")
-}
+})
