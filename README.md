@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/awesomecosmos/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/awesomecosmos/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide utility functions for inspecting and
@@ -35,7 +37,7 @@ library(libminer)
 lib_summary()
 #>                                                                                         Library
 #> 1                                /Library/Frameworks/R.framework/Versions/4.2/Resources/library
-#> 2 /private/var/folders/mm/6lyr9rbs7vd53tnvwt0676zm0000gn/T/Rtmpt0b9cr/temp_libpath150646bd3ab6d
+#> 2 /private/var/folders/mm/6lyr9rbs7vd53tnvwt0676zm0000gn/T/Rtmpt0b9cr/temp_libpath150642ac1fe4d
 #>   n_packages
 #> 1        171
 #> 2          1
