@@ -2,6 +2,8 @@
 #'
 #' Provides utility functions for inspecting and examining your local R package installations.
 #'
+#' @param sizes Boolean specifying whether or not to calculate total file sizes. Default `FALSE`.
+#'
 #' @return A `data.frame` of library paths and total count of packages contained within.
 #' @export
 #'
