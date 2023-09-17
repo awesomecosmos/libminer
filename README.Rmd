@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# libminer
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of libminer is to provide utility functions for inspecting and examining your local R package installations.
+
+This is a R package developed as part of my workshop participation in '[Fundamentals of R Package Development](https://posit-conf-2023.github.io/pkg-dev/)' at the [Posit Conference 2023](https://posit.co/conference/)! Credit for this package and its code goes to [@ateucher](https://github.com/ateucher).
+
+## Installation
+
+You can install the development version of libminer from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("awesomecosmos/libminer")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(libminer)
+
+lib_summary()
+
+# can also calculate total file sizes
+# lib_summary(sizes = TRUE)
+```
