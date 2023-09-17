@@ -1,3 +1,12 @@
+#' R Library Summary
+#'
+#' Provides utility functions for inspecting and examining your local R package installations.
+#'
+#' @return A `data.frame` of library paths and total count of packages contained within.
+#' @export
+#'
+#' @examples
+#' lib_summary()
 lib_summary <- function() {
   pkgs <- utils::installed.packages()
   pkg_tbl <- table(pkgs[, "LibPath"])
